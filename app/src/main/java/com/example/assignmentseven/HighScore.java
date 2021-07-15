@@ -7,10 +7,8 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.ArrayList;
 
 public class HighScore extends AppCompatActivity {
@@ -24,8 +22,6 @@ public class HighScore extends AppCompatActivity {
         Intent intent = getIntent();
         Bundle i = getIntent().getExtras();
         ArrayList<String> arrayList = i.getStringArrayList("stringArray");
-
-        //ArrayList<Integer> scoreList = i.getIntegerArrayList("")
         //Full-Screen
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
@@ -34,12 +30,8 @@ public class HighScore extends AppCompatActivity {
         getWindow().getDecorView().setSystemUiVisibility(uiOptions);
 
         input = intent.getStringExtra("username");
-        //nameList = intent.getStringArrayExtra(input);
-
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,arrayList);
         ListView listView = (ListView)findViewById(R.id.lv_HighScore);
-
-
         listView.setAdapter(arrayAdapter);
     }
 
