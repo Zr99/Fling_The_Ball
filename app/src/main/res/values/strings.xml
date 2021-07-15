@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AssignmentSeven</string>
+    <string name="app_name">Fling ME</string>
     <string name="start_btn">Start Game</string>
     <string name="High_score_btn">High Score Board</string>
     <string name="game_name">Game Name</string>
@@ -8,7 +8,7 @@
     <string name="Back">Back</string>
     <string name="hint_username">Enter your alias</string>
 
-    <string name="developer_name">Developers : Zaid Asfar and Ryan Ling</string>
+    <string name="developer_name">Developers : Ryan Ling</string>
 
     <string name="user1">User one</string>
     <string name="user2">User two</string>
