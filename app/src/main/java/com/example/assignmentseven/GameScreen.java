@@ -4,7 +4,6 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
-
 import static java.lang.Math.*;
 import android.content.Context;
 import android.content.Intent;
@@ -288,6 +287,4 @@ public class GameScreen extends AppCompatActivity {
 
         userText.setText(name);
     }
-
-
 }
