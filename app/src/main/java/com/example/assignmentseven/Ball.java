@@ -1,5 +1,4 @@
 package com.example.assignmentseven;
-
 import android.graphics.Color;
 
 public class Ball {
@@ -21,7 +20,6 @@ public class Ball {
     }
 
     //getters and setters
-
     public float get_diameter() {
         return _diameter;
     }
