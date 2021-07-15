@@ -4,7 +4,7 @@ ___
 This is a game-based application that utilizes most of the concepts  
 about Android development and the object structures. The basic idea is to build an
 application in which users 'throw' balls at targets.
-\
+
 ##  Description
 * The application includes a ‘Home’ screen, a ‘Game Play’ screen, and a ‘High
 Score’ screen
@@ -15,7 +15,7 @@ described below (in the ‘game play description’ section). It has a scoring
 system showing a point count on screen and some kind of win/lose system so that a
 game can finish
 * The ‘High Score’ screen shows the 5 best scores achieved.
-\
+
 ## Game play description
 * You should use the “fling” gesture to throw a ball at a target. You can take into
 account direction, speed, and possibly curve or spin to determine ball movement.
