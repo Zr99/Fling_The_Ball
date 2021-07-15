@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AssignmentSeven</string>
+    <string name="start_btn">Start Game</string>
+    <string name="High_score_btn">High Score Board</string>
+    <string name="game_name">Game Name</string>
+    <string name="High_score">Top High Scores</string>
+    <string name="Exit">Exit Game</string>
+    <string name="Back">Back</string>
+    <string name="hint_username">Enter your alias</string>
+
+    <string name="developer_name">Developers : Zaid Asfar and Ryan Ling</string>
+
+    <string name="user1">User one</string>
+    <string name="user2">User two</string>
+    <string name="user3">User three</string>
+    <string name="user4">User four</string>
+    <string name="user5">User five</string>
+</resources>
